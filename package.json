@@ -1,0 +1,39 @@
+{
+  "name": "sneaker-backend-complete",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^7.0.0",
+    "mongoose": "^7.8.7",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "mongodb-memory-server": "^8.12.1",
+    "nodemon": "^2.0.22",
+    "supertest": "6.3.3"
+  },
+  "description": "Hackaton final del curso de Backend",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luis-fhv/E-COMMERCE-SV73919694.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/luis-fhv/E-COMMERCE-SV73919694/issues"
+  },
+  "homepage": "https://github.com/luis-fhv/E-COMMERCE-SV73919694#readme"
+}
